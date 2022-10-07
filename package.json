@@ -1,6 +1,6 @@
 {
   "name": "string-nan",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "A tiny tool to convert between string and NaN[].",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

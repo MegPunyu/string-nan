@@ -1,5 +1,5 @@
 # StringNaN
-A tiny tool to convert convert between string and NaN[].
+A tiny tool to convert between string and NaN[].
 
 ## Features
 Converts a string and a NaN Array to each other.
