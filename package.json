@@ -1,0 +1,30 @@
+{
+  "name": "string-nan",
+  "version": "2.0.0",
+  "description": "A tiny tool to convert between string and NaN[].",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MegPunyu/string-nan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MegPunyu/string-nan/issues"
+  },
+  "homepage": "https://github.com/MegPunyu/string-nan#readme",
+  "keywords": [
+    "string",
+    "NaN",
+    "Array"
+  ],
+  "author": "MegPunyu",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}
