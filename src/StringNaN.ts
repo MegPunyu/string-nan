@@ -34,7 +34,7 @@ export default class StringNaN {
 
         const charCodes: number[] = (typeof nans === "number" ? [nans] : nans).map(nan => {
 
-            if (Number.isNaN(nan)) {
+            if (!Number.isNaN(nan)) {
                 throw new TypeError("Non NaN values found");
             }
 

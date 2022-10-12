@@ -11,7 +11,7 @@ npm install string-nan
 
 ## Usage
 ```javascript
-import { StringNaN } from "string-nan";
+import StringNaN from "string-nan";
 
 const str = "meg";
 
@@ -19,10 +19,10 @@ const nans = StringNaN.toNaNs(str);
 
 console.log(nans);  // [ NaN, NaN, NaN ]
 
-console.log(StringNaN.toString(nans));    // meg
-console.log(StringNaN.toString(nans[0])); // m
+console.log(StringNaN.toString(nans));     // meg
+console.log(StringNaN.toString(nans[0]));  // m
 
 nans.reverse();
 
-console.log(StringNaN.toString(nans));    // gem
+console.log(StringNaN.toString(nans));  // gem
 ```
